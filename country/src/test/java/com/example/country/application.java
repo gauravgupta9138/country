@@ -17,6 +17,7 @@ public class application extends HttpServlet{
 		super.service(req, resp);
 		PrintWriter out= resp.getWriter();
 		out.print("hello Spring");
+		out.println("hello Spring dev2");
 		
 	}
 
